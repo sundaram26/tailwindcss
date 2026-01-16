@@ -28,6 +28,7 @@ const Navbar = () => {
                 alt="logo"
             />
         </Link>
+
         <div className='flex items-center gap-8'>
             {links.map((link, index) => (
                 <Link
@@ -39,7 +40,10 @@ const Navbar = () => {
                 </Link>
             ))}
         </div>
-        <button className="bg-[#2579F4] px-4 py-2 rounded-lg text-white font-bold shadow-lg text-shadow-md tracking-wide">Start free trial</button>
+
+        <button className="bg-[#2579F4] px-4 py-2 rounded-lg text-white font-bold shadow-lg text-shadow-md tracking-wide">
+            Start free trial
+        </button>
     </div>
 }
 
