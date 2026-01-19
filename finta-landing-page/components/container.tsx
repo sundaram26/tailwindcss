@@ -10,6 +10,7 @@ const Container = ({
 }) => {
     return (
         <div className={cn("max-w-6xl mx-auto px-4 md:py-8", className)}>
+            
             {children}
             
         </div>
