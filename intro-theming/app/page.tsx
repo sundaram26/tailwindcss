@@ -1,9 +1,10 @@
+import Hero from "@/components/hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="mt-4 flex items-center justify-center p-2">
-      Hello, World!
+    <div className="h-screen bg-neutral-900 flex justify-center">
+      <Hero />
     </div>
   );
 }

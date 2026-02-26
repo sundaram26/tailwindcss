@@ -1,2 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import "tailwindcss";
 
+@theme {
+    --color-primary: oklch(74.6% 0.16 232.661);
+    --font-display: "Roboto", sans-serif;
+    --font-para: "Oswald", sans-serif;
+}
