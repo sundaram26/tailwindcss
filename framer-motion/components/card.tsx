@@ -20,7 +20,6 @@ const Card = () => {
                 scale: 0.98,
                 filter: "blur(10px)",
               }}
-              
               animate={{
                 opacity: 1,
                 scale: 1,
